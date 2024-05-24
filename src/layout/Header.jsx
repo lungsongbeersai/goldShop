@@ -1,5 +1,5 @@
-import { remove } from "lodash";
-import React,{useEffect,useState} from "react";
+// import { remove } from "lodash";
+import React,{useEffect} from "react";
 import { Link ,useNavigate} from "react-router-dom";
 export default function Header() {
   const navigate = useNavigate();

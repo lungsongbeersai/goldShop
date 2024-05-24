@@ -1,4 +1,4 @@
-import React,{useState} from 'react'
+import React from 'react'
 import HomePage from '../screens/home/homePage';
 import Login from '../screens/404/Login';
 import UserPage from '../screens/setting/userPage';

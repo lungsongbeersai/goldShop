@@ -26,7 +26,7 @@ export default function Application() {
   return (
     <>
       {/* <Loader /> */}
-      { path=== "/login" || path=== "/sale"  ? (
+      { path==="/login" || path==="/sale"  ? (
         <AppContent />
       ) : (
         <div id="app" class={`app app-header-fixed app-sidebar-fixed app-gradient-enabled app-content-full-height ${minified == true ? 'app-sidebar-minified' :'' }`}>

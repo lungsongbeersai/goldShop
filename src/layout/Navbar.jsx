@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Link,useLocation } from 'react-router-dom';
 import mainMenu  from '../utils/mainMenu.json'
-import _ from 'lodash';
+// import _ from 'lodash';
 export default function Navbar() {
   const userName=localStorage.getItem('username');
   const dataMain=mainMenu.main;
