@@ -1,0 +1,151 @@
+{
+  "main": [
+    {
+      "id": 1,
+      "mainName": "ໜ້າຫຼັກ",
+      "link": "home",
+      "icon": "fa-solid fa-house",
+      "sts": "1",
+      "datasub": []
+    },
+    {
+      "id": 2,
+      "mainName": "ຈັດການການຂາຍ",
+      "link": "",
+      "icon": "fa-solid fa-cart-plus",
+      "sts": "2",
+      "datasub": [
+        {
+          "_id": 1,
+          "mainId": 2,
+          "sumName": "ໜ້າຂາຍ",
+          "parth": "sale"
+        },
+        {
+          "_id": 2,
+          "mainId": 2,
+          "sumName": "ຍົກເລີກບິນຂາຍ",
+          "parth": "cancle"
+        },
+        {
+          "_id": 3,
+          "mainId": 2,
+          "sumName": "ປິດການຂາຍປະຈຳວັນ",
+          "parth": "offSale"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "mainName": "ພະນັກງານ",
+      "link": "staff",
+      "icon": "fa-solid fa-address-card",
+      "sts": "1"
+    },
+    {
+      "id": 4,
+      "mainName": "ຂໍ້ມູນຜະລິດຕະພັນ",
+      "link": "",
+      "icon": "fa-solid fa-layer-group",
+      "sts": "2",
+      "datasub": [
+        {
+          "_id": 4,
+          "mainId": 4,
+          "sumName": "ສາງສະຕ໋ອກຂາຍ",
+          "parth": "stock"
+        },
+        {
+          "_id": 5,
+          "mainId": 4,
+          "sumName": "ປະເພດພະລິດຕະພັນ",
+          "parth": "type"
+        },
+        {
+          "_id": 6,
+          "mainId": 4,
+          "sumName": "ຂໍ້ມູນພະລິດຕະພັນ",
+          "parth": "product"
+        },
+        {
+          "_id": 7,
+          "mainId": 4,
+          "sumName": "ຂໍ້ມູນລວດລາຍ",
+          "parth": "pattern"
+        },
+        {
+          "_id": 8,
+          "mainId": 4,
+          "sumName": "ຈັດການ ການນຳເຂົ້າ",
+          "parth": "received"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "mainName": "ລາຍງານ",
+      "link": "",
+      "icon": " fa-solid fa-newspaper",
+      "sts": "2",
+      "datasub": [
+        {
+          "_id": 9,
+          "mainId": 5,
+          "sumName": "ລາຍງານຂາຍປະຈຳວັນ",
+          "parth": "r-sale"
+        },
+        {
+          "_id": 10,
+          "mainId": 5,
+          "sumName": "ລາຍງານຂາຍລະອຽດ",
+          "parth": "r-list"
+        },
+        {
+          "_id": 11,
+          "mainId": 5,
+          "sumName": "ລາຍງານນຳເຂົ້າປະຈຳວັນ",
+          "parth": "r-import"
+        },
+        {
+          "_id": 12,
+          "mainId": 5,
+          "sumName": "ລາຍງານສະຕ໋ອກ",
+          "parth": "r-stock"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "mainName": "ການຕັ້ງຄ່າ",
+      "link": "",
+      "icon": " fa-solid fa-sliders",
+      "sts": "2",
+      "datasub": [
+        {
+          "_id": 13,
+          "mainId": 6,
+          "sumName": "ຕັ້ງຄ່າຂໍ້ມູນພື້ນຖານ",
+          "parth": "system"
+        },
+        {
+          "_id": 14,
+          "mainId": 6,
+          "sumName": "ຕັ້ງຄ່າໂຊນຂາຍ",
+          "parth": "zone"
+        },
+        {
+          "_id": 15,
+          "mainId": 6,
+          "sumName": "ຈັດການຜູ້ໃຊ້ລະບົບ",
+          "parth": "user"
+        },
+        {
+          "_id": 16,
+          "mainId": 6,
+          "sumName": "ຕັ້ງຄ່າສິດການໃຊ້ລະບົບ",
+          "parth": "#"
+        }
+      ]
+    }
+  ]
+}
